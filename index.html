@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio Responsive</title>
     <style>
-                #portaRetratos {
+        body{
+            height: 100vh;
+            width: 100vw;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: chartreuse;
+            
+        }
+
+        #portaRetratos {
+            display:block;
             width: 50vw;
             height: 50vh;
             background-color: lightpink;
-            display: block;
+
+
         }
 
         #foto {
             width: 100%;
             height: 100%;
             object-fit: cover;
+
         }
         @media screen and (orientation:landscape) {
             #portaRetratos {
